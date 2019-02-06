@@ -1,0 +1,122 @@
+---
+title: "Plagiarism in Higher Education"
+author: "Maximilian Pfundstein"
+date: "17 September 2018"
+bibliography: sources.bib
+output:
+  pdf_document:
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+    pandoc_args: [
+      "-V", "classoption=twocolumn"
+    ]
+  html_document:
+    df_print: paged
+    number_sections: no
+    toc: yes
+    toc_float: no
+  word_document:
+    toc: yes
+    toc_depth: '3'
+---
+
+## Abstract
+This paper gives a brief overview over plagiarism in higher education. Plagiarism is performed in different ways, which might be Ghostwriting, copying source code, copying text or even copying whole papers. This is not only done by students, but also post graduates. The reasons for plagiarism include cultural differences, laziness, fear of failure and insufficient knowledge of a foreign language. Due to the fact that most writings are submitted electronically, there exist software which tries to automatically detect plagiarism, not only in papers, but also in assignments. Still there is some plagiarism that won't automatically be detected by software. The consequences of plagiarism for individuals is usually a loss of trustworthiness, credits and time. The severe damage is caused by plagiarism that is undetected, as it undermines the chain of knowledge that today's science use to drive research. To prevent plagiarism, people must understand *why* plagiarism is bad and our modern academic society, especially universities and governments, should try to not push people into a corner where the only way out is plagiarism. This happens if people are punished by not getting funding's for their studies, dropping out of programmes if they can't finish work on time or if the cultural gap is to big.
+
+## Introduction
+Plagiarism in higher education is a problem for multiple reasons. This paper discusses different types and aspects of plagiarism and emphasizes not only problems that rise from plagiarism, but also resulting effects and why they should be avoided. This analysis also discusses reasons, why people perform plagiarism.
+
+There is more than one definition for plagiarism. For this paper the following definition is used, as it clearly describes the main problem (even if the definition doesn't mention any reasons).
+
+> When  the  work  of  someone  else  is  reproduced  without  acknowledging  the  source,  this  is  known  as
+plagiarism. [@clough2000plagiarism]
+
+There are two main points this definition states. The first one is, that plagiarism in general involves any kind of (mental) work. The second one is, that the credits for doing (mental) work isn't given to the rightful author. Plagiarism not only includes scientific papers, but also source code, music, art and many other areas. Due to the fact that this paper deals with plagiarism in higher education the focus will lie mainly on student assignments, scientific papers and source code at universities.
+
+The first topic ["In which contexts is plagiarism performed"](#context) gives an overview where plagiarism can be found in higher education. This ranges from simple student assignments to copying whole scientific papers. The chapter ["Reasons for Plagiarism"](#reasons) sheds some like on the different reasons, why plagiarism is performed. This includes plagiarism that is done on purpose as well as unintentional plagiarism (for example due to cultural differences). With this context chapter ["Detection of Plagiarism"](#detection) gives a brief overview what can be done to detect plagiarism. The chapter ["Consquences of Plagiarism"](#consequences) reflects the consequences of plagiarism. It differentiates between plagiarism that is detected, which usually has consequences for the individual that performed plagiarism and plagiarism that stays undetected and what that means to our scientific society.
+
+The last chapter ["Conclusion"](#conclusion) will give a glimpse on how plagiarism will develop in the future, considering the different aspects mentioned in the previous chapters.
+
+## In which contexts is plagiarism performed? {#context}
+Plagiarism can be found in a wide variety of places. Students copy home assignments, sometimes partly, sometimes the whole assignment. To prevent detection the context is edited in way where the students believe that their fraud won't be detected. This type of plagiarism could be observed many times during my studies back in Germany. This doesn't only apply to written assignments, but also to source code which was part of assignments. Even if the source code wasn't copied line by line, it's still plagiarism if the algorithm or idea behind the source code is taken and just written in a different way without mentioning the source of inspiration. This is basically the same as copying a popular song, editing some notes and publishing it under a different name. This shows that plagiarism can be performed even if the original content has been modified due to the fact that the body of thought is stolen.
+
+Another type of plagiarism that got a lot of attention in the last years is Ghostwriting:
+
+> Ghostwriting  became  students'  most  popular  way  to  avoid writing  of  boring  essays,  or  the  best  way  to  easily earn  by writing on behalf of another student. [@zdravkova2011fifty]
+
+In this case, someone else is creating the content for an assignment or even a whole thesis. This still falls in the category of plagiarism because the person doing this is just pretending to be the author - in fact it's a different person.
+  
+Plagiarism is not only performed by students, but also by people that have finished their studies. Just recently there has been a case where a whole paper has been copied. The title of the  paper that appeared first is "Systematic investigation of the impact of operation conditions on the degradation behaviour of perovskite solar cells" [@solarcellsnature] and it was published at the 1. of January.
+
+The abstract of the paper reads as follows:
+
+> Perovskite solar cells have achieved power-conversion efficiency values approaching those of established photovoltaic technologies, making the reliable assessment of their operational stability the next essential step towards commercialization. Although studies increasingly often involve a form of stability characterization, they are conducted in non-standardized ways, which yields data that are effectively incomparable. Furthermore, stability assessment of a novel material system with its own peculiarities might require an adjustment of common standards. Here, we investigate the effects of different environmental factors and electrical load on the ageing behaviour of perovskite solar cells. On this basis, we comment on our perceived relevance of the different ways these are currently aged. We also demonstrate how the results of the experiments can be distorted and how to avoid the common pitfalls. We hope this work will initiate discussion on how to age perovskite solar cells and facilitate the development of consensus stability measurement protocols. [@solarcellsnature]
+
+Later that year a paper titled "Ageing effects of perovskite solar cells under different environmental factors and electrical load conditions" was published at the 7. June of 2018 [@solarcellssciencedirect]. This second paper has the exact same abstract. It has been retracted by the publisher Elsevier with the following reason:
+
+>This article has been retracted at the request of the Editor-in-Chief and Authors.
+
+> This article plagiarizes a paper that had already appeared in Nature Energy volume 3 (2018), 61-67 10.1038/s41560-017-0060-5. One of the conditions of submission of a paper for publication is that authors declare explicitly that their work is original and has not appeared in a publication elsewhere. As such this article represents a severe abuse of the scientific publishing system. The scientific community takes a very strong view on this matter and apologies are offered to readers of the journal that this was not detected during the submission process.[^1]
+
+[^1]: https://www.sciencedirect.com/science/article/pii/S0927024818302824
+
+As we can see plagiarism is an issue at all levels of higher education. In this case the fraud is obvious and easy to detect, at least as soon as both papers are compared directly. The point at which something is considered as plagiarism isn't always that easy.
+
+In the beginning of this chapter it was mentioned that plagiarism also affects source code and music. Imagine an artist covers one or multiple songs of a famous band, changes some notes, attaches his own style to the song and also is able to perform the song on his own instrument. Is this considered at plagiarism or violation of copyright? If in this example the line is still easy to draw, consider the following: Each program or source code is a specified and limited sequence of zeros and ones. People have copyrights on their programs. In the end every program is just a number. So people have copyrights on numbers, which is of course a really specific way to look at the topic, but it shows that sometimes it's not that clear to distinct between plagiarism and custom work.
+
+When students are asked "How much of copying is plagiarism" [@culturalvalues] answers are:
+
+- It is okay to copy "very general and background information". [@culturalvalues, pp. 219]
+- If the text is more eloquently written, it's acceptable to copy it. [@culturalvalues, pp. 219]
+- "At the point when the text they were copying began controlling what they were writing."
+[@culturalvalues, pp. 220]
+
+But what are the reasons for plagiarism?
+
+## Reasons for Plagiarism {#reasons}
+There exist several reasons why people do plagiarism. To give an impression, this chapter states a few. It doesn't claim to name all of them.
+
+One reason might be cultural differences:
+
+> As [@borrowingwords] showed, for Chinese students, using another author's words is a
+form of respect, and it is hard for these students to change this cultural practice. [@culturalvalues, pp. 215]
+
+In this case, students are not even doing it on purpose, but just do what they have learned in their academic career. This raises the question, if this is the fault of the students or the fault of the universities, teachers and countries they've studied at.
+
+Another reason is, that writing takes more time in a foreign language:
+
+> Other commentators have highlighted how when English is a student's second lan-
+guage, he or she is placed under pressure by the increased amount of time it takes
+for him or her to write. [@culturalvalues, pp. 215]
+
+The question is, what causes the pressure to finish in time? Reasons might be deadlines, budgets or the pressure to publish a specific amount of papers per time period. Doing further research in this topic might reveal several flaws in academic society and interesting findings. At this point we won't dive further into the topic.
+
+People also fear of failure due to their lack of (previous) experience. This is especially the case if their studies are funded, either by their families, companies or also by the government [@culturalvalues, pp. 215]. It seems like the continuous demand to be successful has a negative influence on people, somehow forcing them to do things, they normally would deny. This ranges from cultural differences to language problems and from fear of failure to lack of experience [@culturalvalues, pp. 215]. 
+
+A last aspect that should be mentioned is that students are often involved in some kind of research in their specialist group. When it comes to publishing the results, the names of the students are sometimes not mentioned in the resulting paper. Often the leading professors at the faculty want to have the credits to raise their reputation. When asked, why they don't mentioned students who were involved into the research, the answer is, that the students didn't do the hard theoretical work, but the boring repetitive experiments or analysis of different data. It's hard to spontaneously find a solution for this kind of circumstances, but we see that even this is some kind of plagiarism due to the fact that not all credits are given to the right author.
+    
+## Detection of Plagiarism {#detection}
+This topic got more important in the last years due to the rising numbers of students, especially submitting text and source code in electronic form [@clough2000plagiarism, pp. 1]. Due to the high workload of checking submitted solutions for assignments by hand, the demand for automated solutions increased. We can see that back in 2000 the problem of detecting plagiarism was already present and we can assume that it got more demand by today.
+
+People performing plagiarism on purpose also got smarter, resulting in covering it with tricks like combining sentences, changing words or shuffling the order of sentences. This makes it even more difficult to detect this kind of fraud. We can see that there are service providers just for detecting plagiarism, such as Urkund [^2]. They implement complex algorithms to find the changes that were made to cover the plagiarism.
+
+[^2]: https://www.urkund.com/
+
+Detecting plagiarism in source code or programs can be more challenging, but it mainly depends on different circumstances. Do we have just the program, or also the source code? Do we know which compiler has been used and which compilation flags were set? If the source code is available, the challenge might be easier than finding plagiarism in written text, due to the ambiguity of written text. It's getting harder, when source code is compiled, or even if a small amount of source code is copied and inserted into a bigger program (compiler optimization might work different in this case, resulting in different machine code).
+
+But still with all the available tools today, things like the incident mentioned in ["In which contexts is plagiarism performed"](#context) happen. We can assume, that there will never be a 100 percent detection rate of plagiarism, which brings us to the question, what are the consequences of plagiarism not only for the individual, if the fraud got revealed, but also for the (academic) society if plagiarism is not detected.
+    
+## Consquences of Plagiarism {#consequences}
+Punishment for plagiarism can be devastating, but most of the time if plagiarism is detected, it results with giving the student zero points, so the student has to resubmit the work, which mainly results in a delay [@plagiarismanditstreatment]. If plagiarism is performed repetitively the punishment could also be the expulsion from the university or the loss of a high amount of credits (t.ex. 60) [@plagiarismanditstreatment]. Sometimes it matters if the plagiarism was done on purpose or not, but if it has been performed repetitively, then it's hard to argue that it was unintentional. If plagiarism is performed after graduation, the punishment is most likely a vast decrease in reputation, as we also can see from the example mentioned in chapter ["In which contexts is plagiarism performed"](#context). This does not only apply to the author, but also to the publisher.
+
+For academic society the detection of plagiarism is unpleasant, costs a lot of money and effort. But still it has to be done to prevent plagiarism. If plagiarism is ignored, it leads to a world where not only academic titles are worthless, but also research itself loses it's fundamental basis. We do research and publish papers, to show, prove, disprove or suggest theories describing the laws of nature. This is done by building chains, so a researcher is able to use what was discovered before. Of course is okay to drop theories if they are wrong or to extend them. For example take the laws of Newton. We know that they are wrong in the sense that we must use Relativity Theory to accurately describe the laws of motion, but we also know it's a really good approximation if we talk about low velocities and it makes the calculations much easier. If we allow plagiarism, we destroy this chain of knowledge and as we know, if only one part of a chain is not trustworthy, everything following isn't either. This is even more important in subjects like mathematics.
+
+## Conclusion {#conclusion}
+For the reason of trustworthiness we must not accept plagiarism. But we also have to tell people *why* plagiarism is bad and *why* it must be avoided. But even then, if people are pushed into a corner, and plagiarism is their last resort, they will use it. This means we should rethink, if we really want to let a student drop out of university, just because he is a few days or weeks behind schedule or doesn't receive any fundings due to several reasons[^3]. So even if people get the reason *why* plagiarism is bad, we should not push them into still doing it.
+
+[^3]: I have a girlfriend living in Berlin, Germany. She studies veterinary medicine. She only gets governmental funding's, if she studies in normal period. If she just needs one additional semester, which can happen quite easily if you fail one exam (which can happen easily, you never know what people or going through in their life), she not eligable for governmenal fundings anymore.
+
+In addition to that, we have some old habits, that simply don't hold in the future. Just look at the Nobel Prize. It usually goes to one person or a small number of people. But what do we do, if new research is done by big international groups of people? Who gets the credits? Take the detection of Gravitational Waves as an example (not the prediction by Einstein). There is not that *one* person that did it, but a group of people working together for many years. It's the same example as before with the students and their professors, where the professor takes the credits. There will always be people that are more or less involved in a project, but times chang and we should adapt, otherwise we will slow down the process of research and the development of new technologies.
+
+## References
